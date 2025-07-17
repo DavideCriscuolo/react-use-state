@@ -2,31 +2,31 @@ export const lenguages = [
   {
     id: 1,
     title: "HTML",
-    desc: "Lorem",
+    desc: "A markup language for creating web pages.",
   },
   {
     id: 2,
     title: "CSS",
-    desc: "Lorem",
+    desc: "A stylesheet language that controls the look and feel of websites.",
   },
   {
     id: 3,
     title: "JavaSript",
-    desc: "Lorem",
+    desc: "A versatile language for building interactive web applications.",
   },
   {
     id: 4,
     title: "Node.js",
-    desc: "Lorem",
+    desc: "A JavaScript runtime environment for server-side development.",
   },
   {
     id: 5,
     title: "Express",
-    desc: "Lorem",
+    desc: "A web application framework for Node.js.",
   },
   {
     id: 6,
     title: "ReactJs",
-    desc: "Lorem",
+    desc: "A JavaScript library for building user interfaces.",
   },
 ];

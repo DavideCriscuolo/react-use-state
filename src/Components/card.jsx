@@ -1,3 +1,3 @@
-export default function Card() {
-  return <p>cioa</p>;
+export default function Card(prop) {
+  return <p>{prop.desc}</p>;
 }

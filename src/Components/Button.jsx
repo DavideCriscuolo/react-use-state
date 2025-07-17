@@ -1,15 +1,17 @@
 import { useState } from "react";
 import Card from "./card";
 export default function Button(prop) {
-  const [markup, setMarkup] = useState();
+  const [open, setOpen] = useState(false);
 
   function heandClik() {
-    setMarkup(prop.desc);
+    setOpen(!open);
+    console.log("ciao");
   }
 
   return (
     <div key={prop.id}>
       <button onClick={heandClik}>{prop.title}</button>
+      <div>{open && <Card desc={prop.desc}></Card>}</div>
     </div>
   );
 }
