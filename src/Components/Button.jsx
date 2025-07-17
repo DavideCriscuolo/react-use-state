@@ -9,9 +9,13 @@ export default function Button(prop) {
   }
 
   return (
-    <div key={prop.id}>
-      <button onClick={heandClik}>{prop.title}</button>
-      <div>{open && <Card desc={prop.desc}></Card>}</div>
+    <div>
+      <div key={prop.id}>
+        <button className="btn btn-primary my-5" onClick={heandClik}>
+          {prop.title}
+        </button>
+      </div>
+      <div>{open && <Card title={prop.title} desc={prop.desc}></Card>}</div>
     </div>
   );
 }

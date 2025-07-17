@@ -3,7 +3,7 @@ import { lenguages } from "../data/ListLenguages";
 export default function AppMain() {
   return (
     <main>
-      <div className="container d-flex justify-content-center gap-5">
+      <div className="container d-flex justify-content-center  gap-5">
         {lenguages.map((leanguage) => {
           return (
             <Button
